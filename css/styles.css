@@ -1,0 +1,47 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4em;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+main {
+    padding-top: 8em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    width: 80%;
+    height: auto;
+}
+ main h2 {
+     font-weight: bold;
+     padding-top: 2em;
+     text-align: center;
+}
